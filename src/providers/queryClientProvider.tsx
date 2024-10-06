@@ -3,6 +3,12 @@ import React from "react";
 
 const queryClient = new QueryClient();
 
+/**
+ * Props for the QueryClientProviderWrapper component.
+ *
+ * @interface QueryProviderProps
+ * @property {React.ReactNode} children - The child components that will be rendered within the QueryClientProvider.
+ */
 export interface QueryProviderProps {
   children: React.ReactNode;
 }
